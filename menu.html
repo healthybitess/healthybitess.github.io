@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Healthy Bitess</title>
+    <link rel="icon" type="image/x-icon" href="images/healthy bitess icon.jpeg">
+    <link rel="stylesheet" href="assests/corewave.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   
+    <header class="header sticky">
+        <div class="container">
+            <div class="logo">
+            <img src="images/hb logo.png" alt="Healthy Bitess Logo" class="logo-img">
+            <div class="logo-text">
+            <h1>Healthy Bitess</h1>
+            <p class="tagline">FRESH, NUTRITIOUS AND DELICIOUS</p>
+            </div>
+        </div>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="https://wa.me/919764488590" class="btn cta-btn">ORDER NOW</a>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+         <br>
+        <section class="hero menu-hero">
+            <div class="hero-bg blurred-bg"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="text-block animate-left">
+                        <h2>Our Wholesome Menu</h2>
+                        <p class="lead">HealthyBitess brings you freshly prepared fruit salads and handpicked vegetable boxes, made for people who 
+                            want clean, honest food without the hassle. Every fruit salad is cut fresh, naturally sweet, and portioned for everyday
+                             wellness. Our vegetable boxes are carefully selected to give you farm-fresh quality for daily cooking and balanced 
+                             meals. And coming soon, our vegetable salads will offer the same freshness and care — thoughtfully prepared, 
+                             nutritionally balanced, and ready to enjoy. Simple ingredients, real nutrition, and food you can trust, delivered 
+                             with consistency and care.</p>
+
+                    </div>
+                    <div class="image-block animate-right">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w-800&q=80" alt="Colorful fruit explosion" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section menu-categories">
+            <div class="container">
+                <div class="category-filters" id="menuFilters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="fruit">Fruit Salads</button>
+                    <button class="filter-btn" data-filter="vegetable">Vegetable Salads</button>
+                    <button class="filter-btn" data-filter="box">Veggie Boxes</button>
+                </div>
+
+                <!-- Menu Items Grid -->
+                <div class="menu-grid" id="menuGrid">
+                    <div class="menu-item card" data-category="fruit">
+                        <img src="images/Tropical Fruit Salad.png" alt="Tropical Fruit Salad">
+                        <div class="menu-content">
+                            <h3>Tropical Fruit Salad</h3>
+                            <p>A vibrant mix of mango, pineapple, kiwi, and papaya.</p>
+                            <p class="price">Starting from ₹120</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20order%20Tropical%20Fruit%20Salad." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item card" data-category="fruit">
+                        <img src="images/Berry Mix Salad.png" alt="Berry Mix Salad">
+                        <div class="menu-content">
+                            <h3>Berry Mix Salad</h3>
+                            <p>Antioxidant-rich strawberries, blueberries, and raspberries.</p>
+                            <p class="price">Starting from ₹150</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20order%20Berry%20Mix%20Salad." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item card" data-category="fruit">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w-800&q=80" alt="Apple & Walnut Salad">
+                        <div class="menu-content">
+                            <h3>Apple & Walnut Salad</h3>
+                            <p>Crunchy apples, walnuts, and a hint of honey.</p>
+                            <p class="price">Starting from ₹110</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20order%20Apple%20%26%20Walnut%20Salad." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item card" data-category="vegetable">
+                        <img src="images/Veg.png" alt="Green Garden Salad">
+                        <div class="menu-content">
+                            <h3>Green Garden Salad</h3>
+                            <p>Fresh lettuce, cucumber, bell peppers, and cherry tomatoes.</p>
+                            <p class="price">Starting from ₹90</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20order%20Green%20Garden%20Salad." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item card" data-category="vegetable">
+                        <img src="images/Veg.png" alt="Mediterranean Veggie Salad">
+                        <div class="menu-content">
+                            <h3>Mediterranean Veggie Salad</h3>
+                            <p>Olives, feta cheese, onions, and tomatoes with herbs.</p>
+                            <p class="price">Starting from ₹130</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20order%20Mediterranean%20Veggie%20Salad." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item card" data-category="vegetable">
+                        <img src="images/Veg.png" alt="Sprout & Corn Salad">
+                        <div class="menu-content">
+                            <h3>Sprout & Corn Salad</h3>
+                            <p>Protein-packed moong sprouts with sweet corn and lemon.</p>
+                            <p class="price">Starting from ₹100</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20order%20Sprout%20%26%20Corn%20Salad." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+
+                    <div class="menu-item card" data-category="box">
+                        <img src="images/Veg.png" alt="Weekly Veggie Box">
+                        <div class="menu-content">
+                            <h3>Weekly Veggie Box</h3>
+                            <p>Curated selection of 7-8 seasonal vegetables for the week.</p>
+                            <p class="price">Custom Pricing</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20inquire%20about%20the%20Weekly%20Veggie%20Box." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item card" data-category="box">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w-800&q=80" alt="Custom Fruit Box">
+                        <div class="menu-content">
+                            <h3>Custom Fruit Box</h3>
+                            <p>A box of mixed fruits tailored to your preference.</p>
+                            <p class="price">Custom Pricing</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20inquire%20about%20a%20Custom%20Fruit%20Box." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item card" data-category="box">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w-800&q=80" alt="Party Platter Box">
+                        <div class="menu-content">
+                            <h3>Party Platter Box</h3>
+                            <p>Large assortment of cut fruits and vegetables for events.</p>
+                            <p class="price">Custom Pricing</p>
+                            <a href="https://wa.me/919764488590?text=Hi%20Healthy%20Bitess,%20I%20would%20like%20to%20inquire%20about%20the%20Party%20Platter%20Box." class="btn order-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section custom-order">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">We Accept Customized Orders</h2>
+                    <p>Tell us what you like, and we'll prepare it fresh for you.</p>
+                </div>
+                <div class="custom-form-preview">
+                    <div class="form-preview">
+                        <h3>Quick Custom Order Inquiry</h3>
+                        <form id="customOrderForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" placeholder="Enter your WhatsApp number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="requirements">Your Requirements</label>
+                                <textarea id="requirements" rows="3" placeholder="E.g., Fruit salad with no bananas, or a veggie box with broccoli and carrots..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Send via WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                    <div class="custom-info">
+                        <h3><i class="fas fa-check-circle"></i> Why Customize?</h3>
+                        <ul>
+                            <li>Allergies or dietary restrictions? We adjust.</li>
+                            <li>Prefer certain fruits or vegetables? We include them.</li>
+                            <li>Special occasions? We create unique platters.</li>
+                            <li>Regular weekly order? We set up a schedule.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section order-info">
+            <div class="container">
+                <div class="info-cards">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <h3>Minimum Order</h3>
+                        <p>Minimum order: ₹100</p>
+                        <p>For smaller orders, a nominal packing charge may apply.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Advance Orders</h3>
+                        <p>Advance orders recommended</p>
+                        <p>Order at least 2 hours before delivery for best freshness.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Delivery Areas</h3>
+                        <p>Nashik, Ozar (MIG), Pimpalgaon Baswant</p>
+                        <p>Delivery timing discussed at order confirmation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="container">
+                <h2>Hungry for Health?</h2>
+                <p>Place your order now via WhatsApp for the fastest response.</p>
+                <a href="https://wa.me/919764488590" class="btn whatsapp-btn pulse">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Order
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                <div class="footer-logo">
+                <img src="images/healthy bitess icon.jpeg" alt="Healthy Bitess Logo">
+              </div>
+               <h3>Healthy Bitess</h3>
+               <p class="tagline">FRESH, NUTRITIOUS AND DELICIOUS</p>
+               <p>Your daily dose of health made delicious.</p>
+               </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> Phone: 9764488590</p>
+                    <p><i class="fas fa-envelope"></i> Email: healthybitess9900@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Service Areas: Nashik, Ozar (MIG), Pimpalgaon Baswant</p>
+                    <p><i class="fas fa-calendar-alt"></i> Working Days: Monday to Saturday</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Payment Methods</h4>
+                    <p>Cash on Delivery</p>
+                    <p>UPI (GPay/PhonePe/Paytm)</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/919764488590"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2023 Healthy Bitess. All rights reserved. | Designed & Developed by Team ThriveAxis</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="assests/script.js"></script>
+</body>
+</html>

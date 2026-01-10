@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Healthy Bitess</title>
+    <link rel="icon" type="image/x-icon" href="images/healthy bitess icon.jpeg">
+    <link rel="stylesheet" href="assests/corewave.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header sticky">
+        <div class="container">
+            <div class="logo">
+            <img src="images/hb logo.png" alt="Healthy Bitess Logo" class="logo-img">
+            <div class="logo-text">
+            <h1>Healthy Bitess</h1>
+            <p class="tagline">FRESH, NUTRITIOUS AND DELICIOUS</p>
+            </div>
+        </div>
+
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="https://wa.me/919764488590" class="btn cta-btn">ORDER NOW</a>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero gallery-hero">
+            <div class="hero-bg blurred-bg"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="text-block animate-left">
+                        <h2>Feast Your Eyes</h2>
+                        <p class="lead">A visual journey of freshness, color, and health.</p>
+                    </div>
+                    <div class="image-block animate-right">
+                        <img src="images/vibrant-salad-bowl.jpg" alt="Vibrant salad bowl" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section gallery-filter">
+            <div class="container">
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="fruits">Fruits</button>
+                    <button class="filter-btn" data-filter="vegetables">Vegetables</button>
+                    <button class="filter-btn" data-filter="events">Events</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section gallery-main">
+            <div class="container">
+                <div class="masonry-grid" id="galleryGrid">
+                    <div class="gallery-item" data-category="fruits">
+                        <img src="images/gallery/fruit-salad-1.jpg" alt="Colorful fruit salad in a bowl" class="lazy" data-src="images/gallery/fruit-salad-1.jpg">
+                        <div class="overlay">
+                            <p>Fruit Salad Bowl</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="vegetables">
+                        <img src="images/gallery/veg-salad-1.jpg" alt="Fresh green vegetable salad" class="lazy" data-src="images/gallery/veg-salad-1.jpg">
+                        <div class="overlay">
+                            <p>Green Garden Salad</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="fruits">
+                        <img src="images/gallery/fruit-bowl-2.jpg" alt="Berry mix fruit bowl" class="lazy" data-src="images/gallery/fruit-bowl-2.jpg">
+                        <div class="overlay">
+                            <p>Berry Mix Bowl</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <img src="images/gallery/party-platter-1.jpg" alt="Large party platter for events" class="lazy" data-src="images/gallery/party-platter-1.jpg">
+                        <div class="overlay">
+                            <p>Event Party Platter</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="vegetables">
+                        <img src="images/gallery/veggie-box-1.jpg" alt="Weekly veggie box assortment" class="lazy" data-src="images/gallery/veggie-box-1.jpg">
+                        <div class="overlay">
+                            <p>Weekly Veggie Box</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="fruits">
+                        <img src="images/gallery/fruit-salad-2.jpg" alt="Tropical fruit salad" class="lazy" data-src="images/gallery/fruit-salad-2.jpg">
+                        <div class="overlay">
+                            <p>Tropical Fruit Salad</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="vegetables">
+                        <img src="images/gallery/veg-salad-2.jpg" alt="Mediterranean vegetable salad" class="lazy" data-src="images/gallery/veg-salad-2.jpg">
+                        <div class="overlay">
+                            <p>Mediterranean Salad</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <img src="images/gallery/customer-serving-1.jpg" alt="Customer serving at an event" class="lazy" data-src="images/gallery/customer-serving-1.jpg">
+                        <div class="overlay">
+                            <p>Event Serving</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="fruits">
+                        <img src="images/gallery/fruit-box-1.jpg" alt="Custom fruit box" class="lazy" data-src="images/gallery/fruit-box-1.jpg">
+                        <div class="overlay">
+                            <p>Custom Fruit Box</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="vegetables">
+                        <img src="images/gallery/veggie-box-2.jpg" alt="Another veggie box variety" class="lazy" data-src="images/gallery/veggie-box-2.jpg">
+                        <div class="overlay">
+                            <p>Seasonal Veggie Box</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="events">
+                        <img src="images/gallery/preparation-1.jpg" alt="Clean kitchen preparation" class="lazy" data-src="images/gallery/preparation-1.jpg">
+                        <div class="overlay">
+                            <p>Hygienic Preparation</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="fruits">
+                        <img src="images/gallery/fruit-salad-3.jpg" alt="Individual fruit salad cup" class="lazy" data-src="images/gallery/fruit-salad-3.jpg">
+                        <div class="overlay">
+                            <p>Individual Serving Cup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" class="lightbox">
+            <span class="lightbox-close">&times;</span>
+            <div class="lightbox-content">
+                <img id="lightbox-img" src="" alt="">
+                <div class="lightbox-caption">
+                    <p id="lightbox-caption-text"></p>
+                </div>
+            </div>
+            <a class="lightbox-prev">&#10094;</a>
+            <a class="lightbox-next">&#10095;</a>
+        </div>
+
+        <section class="section instagram-feed">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Follow Us @healthybitess</h2>
+                    <p>See more behind-the-scenes, customer photos, and daily specials on Instagram.</p>
+                </div>
+                <div class="instagram-grid">
+                    <div class="insta-post"><img src="images/instagram/insta-1.jpg" alt="Instagram post 1"></div>
+                    <div class="insta-post"><img src="images/instagram/insta-2.jpg" alt="Instagram post 2"></div>
+                    <div class="insta-post"><img src="images/instagram/insta-3.jpg" alt="Instagram post 3"></div>
+                    <div class="insta-post"><img src="images/instagram/insta-4.jpg" alt="Instagram post 4"></div>
+                    <div class="insta-post"><img src="images/instagram/insta-5.jpg" alt="Instagram post 5"></div>
+                    <div class="insta-post"><img src="images/instagram/insta-6.jpg" alt="Instagram post 6"></div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn outline-btn"><i class="fab fa-instagram"></i> View Our Instagram</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section customer-photos">
+            <div class="container">
+                <h2 class="section-title">Happy Customers</h2>
+                <p class="section-subtitle">Real smiles from people who love our food.</p>
+                <div class="customer-slider">
+                    <div class="customer-slide active">
+                        <div class="customer-img">
+                            <img src="images/customers/customer-1.jpg" alt="Happy customer Priya">
+                        </div>
+                        <div class="customer-review">
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="quote">"The berry mix salad is my go-to breakfast now! So fresh and tasty."</p>
+                            <p class="customer-name">- Priya S.</p>
+                        </div>
+                    </div>
+                    <div class="customer-slide">
+                        <div class="customer-img">
+                            <img src="images/customers/customer-2.jpg" alt="Happy customer Rohan">
+                        </div>
+                        <div class="customer-review">
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="quote">"Perfect for my post-workout meal. Custom protein salads are the best!"</p>
+                            <p class="customer-name">- Rohan K.</p>
+                        </div>
+                    </div>
+                    <div class="customer-slide">
+                        <div class="customer-img">
+                            <img src="images/customers/customer-3.jpg" alt="Happy family">
+                        </div>
+                        <div class="customer-review">
+                            <div class="stars">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                            <p class="quote">"Our weekly veggie box saves so much time and ensures we eat healthy."</p>
+                            <p class="customer-name">- The Sharma Family</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+       
+        <section class="cta-banner">
+            <div class="container">
+                <h2>Inspired by What You See?</h2>
+                <p>Place your order for fresh, picture-perfect food today.</p>
+                <a href="menu.html" class="btn primary-btn">View Full Menu</a>
+                <a href="https://wa.me/919764488590" class="btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Order Now
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                <div class="footer-logo">
+                <img src="images/healthy bitess icon.jpeg" alt="Healthy Bitess Logo">
+              </div>
+               <h3>Healthy Bitess</h3>
+               <p class="tagline">FRESH, NUTRITIOUS AND DELICIOUS</p>
+               <p>Your daily dose of health made delicious.</p>
+               </div>
+
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> Phone: 9764488590</p>
+                    <p><i class="fas fa-envelope"></i> Email: healthybitess9900@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Service Areas: Nashik, Ozar (MIG), Pimpalgaon Baswant</p>
+                    <p><i class="fas fa-calendar-alt"></i> Working Days: Monday to Saturday</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Payment Methods</h4>
+                    <p>Cash on Delivery</p>
+                    <p>UPI (GPay/PhonePe/Paytm)</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/919764488590"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2023 Healthy Bitess. All rights reserved. | Designed & Developed by Team ThriveAxis</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="assests/script.js"></script>
+</body>
+</html>
